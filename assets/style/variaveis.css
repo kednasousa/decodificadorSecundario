@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+:root {
+    --cinza: #383337;
+    --preto: #000000;
+    --branco: rgb(245, 245, 245);
+    /*FONTE*/
+    --fonte-principal: "Nanum Gothic Coding", monospace;
+}
