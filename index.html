@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style/reset.css">
+  <link rel="stylesheet" href="./assets/style/variaveis.css">
+  <link rel="stylesheet" href="./assets/style/nebula.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="./assets/style/index.css">
+  <link rel="stylesheet" href="./assets/style/scroll.css">
+  <link rel="stylesheet" href="./assets/style/responsivo.css">
+  <title>Decodificador</title>
+</head>
+
+<body>
+  <div class="o o1"></div>
+  <div class="o o2"></div>
+  <div class="o o3"></div>
+  <div class="o o4"></div>
+
+  <div class="content">
+    <header class="container__header">
+      <h1 class="title__header">NEBULA</h1>
+    </header>
+
+    <main class="container">
+      <section class="container__text__area">
+        <textarea class="text__area scroll" cols="41" rows="4" placeholder="Digite seu texto ..."></textarea>
+
+        <div class="botoes">
+          <button class="btn botao__criptografar" onclick="botaoCriptografar()">Criptografar</button>
+          <button class="btn botao__descriptografar" onclick="botaoDescriptografar()">Descriptografar</button>
+        </div>
+      </section>
+
+      <section class="content__mensagem">
+        <textarea readonly class="mensagem scroll" cols="20" rows="10"></textarea>
+        <button class="btn botao__copiar" onclick="copiarTexto()">Copiar</button>
+      </section>
+    </main>
+
+
+    <footer class="footer">
+      <p class="texto__rodape">Challenge | Alura e Oracle -- Desenvolvido por <a href="https://kednasousa.github.io/" target="_blank"><strong>Kedna
+            Sousa</strong></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
